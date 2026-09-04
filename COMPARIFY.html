@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body{
+     background-color: rgb(233, 233, 172);
+
+}
+        
+        .container{
+            background-color: rgb(213, 206, 206);
+           width: 300px;
+            border-radius: 10px;
+            position: relative;
+            top: 40px;
+            left: 50px;
+            justify-content: center;
+            text-align: left;
+            border-radius: 10px;
+            border: 2px solid black;
+            padding: 5px;  
+box-shadow: 0 10px 30px black;
+display: inline-block;
+margin-right: 50px; 
+        }
+
+        
+        .header img{
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+            position: relative;
+            top: 20px;
+            left: 10px;
+            border: 3px solid white;
+
+        }
+       
+
+        .header{
+            display: flex;
+            
+        }
+ 
+
+        .card img{
+            
+            border-radius: 10px;
+            background-color: black;
+            width: 100%;
+          
+           
+
+        }
+        .price{
+         
+            word-spacing: 10px;
+            line-height: 50px;
+
+        }
+        .price .old{
+            text-decoration: line-through solid rgb(246, 12, 12) ;
+            color: rgb(109, 107, 105);
+        }
+        .price .new{
+            color: green;
+        }
+        button{
+            width: 100%;
+            color: white;
+            background-color: rgb(92, 92, 233);
+            height: 50px;
+            border: 5px solid white;
+            font-size: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition:  ease 0.3s;
+        }
+
+        button:hover{
+             scale: 1.2;     
+               }
+        button:hover::after{
+            content: "❤️";
+        }
+      
+        .box{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+         .img1{
+            height: 90px;
+            width: 90px;
+            border: 2px solid;
+             border-radius:100% ;
+        }
+           .img2{
+            height: 10px;
+            width: 10px;
+            border: 2px solid;
+             border-radius:100% ;
+             position: relative;
+             top: -40px;
+        }
+        .HEADING{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+.box{
+     background-color: rgb(212, 211, 210);
+     border: 2px solid rgb(0, 0, 0);
+     letter-spacing: 2px;
+}
+        .subheading{
+            font-size: larger;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(233, 233, 172);
+            border: 1px solid;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+     
+    </style>
+</head>
+<body>
+
+
+<div class="box">
+    <div class="HEADING">
+        <img src="https://i.fbcd.co/products/resized/resized-750-500/cp-logo-designs-2-3342bd64b5390b63b442c4be5ead4fc29f2300553e60d4965c006c2543755573.jpg" alt="" class="img1">
+        <h1>COMPARIFY .</h1>
+        <img src="https://webstockreview.net/images/r-clipart-letter-number-13.png" alt="" class="img2">
+    </div>
+    <div class="subheading">
+        <p><b>
+            <ul>
+                <li>NOW you can compare the prices of items on different platforms. </li>
+                <li class="lists">
+                    <a href="https://www.amazon.in/">AMAZON ||</a>
+                    <a href="https://www.meesho.com/">MEESHOW ||</a>
+                    <a href="https://www.shopeasy.com/">SHOP-EASY</a>
+                
+                </li>
+            </ul>
+        </b></p>
+    </div>
+
+</div>
+
+   
+      <div class="container">
+        <div class="header">
+            <header>
+            <h1>SHOP EASY</h1>
+        </header>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/575/263/small_2x/vector60-5935-01.jpg" alt="">
+    </div>
+        
+
+        <div class="card">
+            <img src="https://cdn11.bigcommerce.com/s-g76ppqd2vb/images/stencil/1280x1280/products/12229/57421/Narendra_Modi__80873.1692911388.jpg?c=2"alt="T-Shirt">
+
+            <div class="card-content">
+                <h2>Classic Cotton T-Shirt</h2>
+                <p>Soft, breathable cotton. Regular fit. Available in multiple colors.</p>
+                <div class="price">
+                    <span class="new">₹799</span>
+                    <span class="old">₹1,199</span>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+
+<div class="container">
+   <div class="header"> <header><h1>AMAZON</h1></header>
+     <img src="https://yt3.googleusercontent.com/cSVSA1S_y1HeAh1HLnFNZzO-1OwHAbJyW6wK8Y3XYWO5AOK8TuhpvZE1AX9EQz3P1I5DJ78bDQ=s900-c-k-c0x00ffffff-no-rj" alt="" class="AMAZON">
+
+</div>
+    
+    <div class="card">
+        <img src="https://cdn11.bigcommerce.com/s-g76ppqd2vb/images/stencil/1280x1280/products/12229/57421/Narendra_Modi__80873.1692911388.jpg?c=2" alt="T-Shirt">
+
+        <div class="card-content">
+            <h2>Classic Cotton T-Shirt</h2>
+            <p>soft, breathable cotton . regular fit .Available in multiple colours.</p>
+
+            <div class="price">
+                <span class="new">₹999</span>
+                <span class="old">₹2999</span>
+            </div>
+            <button>Add to cart</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="header"><header><h1>MEESHOW</h1></header>
+    <img src="https://images.moneycontrol.com/static-mcnews/2023/06/Meesho-682x435.jpg" alt="">
+    </div>
+    <div class="card">
+        <img src="https://cdn11.bigcommerce.com/s-g76ppqd2vb/images/stencil/1280x1280/products/12229/57421/Narendra_Modi__80873.1692911388.jpg?c=2" alt="T-Shirt">
+
+        <div class="card-content">
+            <h2>Classic Cotton T-Shirt</h2>
+            <p>soft, breathable cotton . regular fit .Available in multiple colours.</p>
+
+            <div class="price">
+                <span class="new">₹599</span>
+                <span class="old">₹999</span>
+            </div>
+            <button>Add to cart</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="header"><header><h1>FLIPKART</h1></header>
+    <img src="https://www.shoppre.com/img/icons/flipkart.webp" alt="">
+    </div>
+    <div class="card">
+        <img src="https://cdn11.bigcommerce.com/s-g76ppqd2vb/images/stencil/1280x1280/products/12229/57421/Narendra_Modi__80873.1692911388.jpg?c=2" alt="T-Shirt">
+
+        <div class="card-content">
+            <h2>Classic Cotton T-Shirt</h2>
+            <p>soft, breathable cotton . regular fit .Available in multiple colours.</p>
+
+            <div class="price">
+                <span class="new">₹899</span>
+                <span class="old">₹2099</span>
+            </div>
+            <button>Add to cart</button>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
